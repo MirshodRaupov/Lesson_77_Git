@@ -11,7 +11,7 @@ class MainVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        view.backgroundColor = .red
     }
 
     @IBAction func btnPressed(_ sender: Any) {
